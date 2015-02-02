@@ -1,4 +1,4 @@
-class Course < ActiveRecord::Base
+class Course
   attr_accessor :instructor, :name, :number
 
   def initialize (instructor, name, number)
