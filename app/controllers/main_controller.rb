@@ -15,6 +15,7 @@ class MainController < ApplicationController
   end
 
   def time
-    @time = Time.now
+    #the Time.now gives you the current time.
+
   end
 end
