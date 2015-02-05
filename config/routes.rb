@@ -5,8 +5,6 @@ Rails.application.routes.draw do
 
   get 'main/about'
 
-  get 'main/time'
-
   get 'main/goodbye'
 
   # The priority is based upon order of creation: first created -> highest priority.
